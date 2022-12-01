@@ -1,5 +1,5 @@
 import config from "~/config";
-import Home from "~/pages/Home";
+import Home from "~/pages/Home/Home";
 import Profile from "~/pages/Profile";
 
 const publicRoutes = [
