@@ -1,5 +1,5 @@
 .wrapper {
-    min-width: 82px;
+    width: 82px;
     height: 36px;
     padding: 6px 8px;
     border-radius: 4px;
@@ -76,6 +76,17 @@
         background-color: rgba(0, 0, 0, 0.06);
     }
 }
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
 
 // icon
 
@@ -84,6 +95,5 @@
     width: 30px;
     margin: 0px;
     text-align: center;
+    color: white;
 }
-
-// btn-icon

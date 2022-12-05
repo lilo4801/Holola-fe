@@ -1,0 +1,60 @@
+.wrapper {
+    width: 1920px;
+    overflow: hidden;
+    height: 1000px;
+}
+.container {
+    min-width: 1920px;
+    transform: translateX(0px);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
+}
+.action-background {
+    .prev-btn {
+        font-size: 5rem;
+        position: absolute;
+        top: 40vh;
+        left: 25px;
+        color: white;
+        background-color: transparent;
+        cursor: pointer;
+        &:hover {
+            color: rgba(255, 255, 255, 0.2);
+        }
+    }
+    .next-btn {
+        font-size: 5rem;
+        position: absolute;
+        top: 40vh;
+        right: 25px;
+        color: white;
+        cursor: pointer;
+        background-color: transparent;
+        &:hover {
+            color: rgba(255, 255, 255, 0.2);
+        }
+    }
+}
+// sc
+.sc {
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+    .sc-item {
+        display: inline-block;
+        margin: 0px 4px;
+        height: 8px;
+        border-radius: 1.5px;
+        width: 10px;
+        background-color: rgba(255, 255, 255, 0.3);
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        -webkit-transition-delay: 500ms;
+        transition-delay: 500ms;
+    }
+}
+.selected {
+    background-color: #fff;
+}
