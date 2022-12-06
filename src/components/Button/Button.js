@@ -17,6 +17,7 @@ function Button({
     disabled = false,
     small = false,
     large = false,
+    long = false,
     iconBtn = false,
     children,
     className,
@@ -58,6 +59,7 @@ function Button({
         circle,
         small,
         large,
+        long,
         iconBtn,
         [className]: className,
 

@@ -59,8 +59,6 @@ const Home = () => {
         } else {
             setIndex(prev => prev - 1)
         }
-
-
     }
 
     const handleNext = () => {
